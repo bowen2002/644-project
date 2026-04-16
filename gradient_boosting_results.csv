@@ -1,0 +1,2 @@
+Model,Train MSE,Test MSE,CV Avg MSE,CV Avg R2,Notes
+Gradient Boosting,3088.5959614134854,3384.3779180584716,3400.632961013544,0.529578350996658,5-Fold Cross Validation + price < 500
