@@ -1,0 +1,5 @@
+Task,Model,Sample Size,Test MSE,Test RMSE,Test MAE,Test R2,CV MSE (3-fold)
+All cleaned listings,Global final random forest,48017,5499.529699,74.158814,44.842373,0.491705,5389.928008
+Typical listings only (<500),Typical global model (<500),47256,3308.983214,57.523762,38.425994,0.534302,3344.583726
+Typical listings only (<500),Typical segmented model by room_type (<500),47256,3198.021036,56.551048,38.319598,0.555099,
+High-price listings only (>=500),High-price global random forest,761,6786.837427,82.382264,66.416002,0.132731,7779.865856
